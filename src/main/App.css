@@ -1,0 +1,19 @@
+.descricao {
+    background-color: rgba(0, 255, 255, 0.534);
+    position: relative;
+    top: 50px;
+    left: 30px;
+    width: 35vw;
+    
+}
+.generos {
+    width: 15vw;
+    background-color: rgba(145, 255, 0, 0.479);
+    display: flex;
+    justify-content: space-between;
+}
+.generos *{
+    background-color: rgba(0, 0, 255, 0.452);
+    font-size: 20px;
+    
+}
