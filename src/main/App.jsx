@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 
 import './App.css'
 
-export default class App extends Component {
+export default class App extends Component { 
     render() {
         return (
             <div>
@@ -16,11 +16,15 @@ export default class App extends Component {
                         <span>ROUBO</span>
                     </div>
                     <h1>La casa de Papel</h1>
+                    <p>2019 | Diretor: | 3 Temporadas</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint asperiores totam illum ab tempora earum officia, fugit doloribus exercitationem a pariatur! Earum distinctio temporibus voluptatum similique ex ipsum sunt nisi.</p>
-                    <div>
-                        <button>ASSISTIR</button>
-                        <button>TODOS OS EPS.</button>
+                    <div className="buttons">
+                        <button id="btnWatch">ASSISTIR</button>
+                        <button id="watchEps">TODOS OS EPS.</button>
                     </div>
+                </div>
+                <div className = "clips">
+                    
                 </div>
             </div>
         )

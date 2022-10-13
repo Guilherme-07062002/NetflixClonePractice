@@ -2,4 +2,22 @@
     height: 15vh;
     width: 100vw;
     background-color: rgba(255, 0, 0, 0.384);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(128, 0, 128, 0.61);
+    width: 20%;
+    margin-left: 20px;
+}
+
+.options {
+    display: flex;
+    
+}
+.options *{
+    margin: 0 70px;
 }

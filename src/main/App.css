@@ -1,3 +1,7 @@
+body{
+    color: white;
+    background-color: gray;
+}
 .descricao {
     background-color: rgba(0, 255, 255, 0.534);
     position: relative;
@@ -6,6 +10,9 @@
     width: 35vw;
     
 }
+.descricao p{
+    text-align: justify;
+}
 .generos {
     width: 15vw;
     background-color: rgba(145, 255, 0, 0.479);
@@ -13,7 +20,43 @@
     justify-content: space-between;
 }
 .generos *{
+    padding: 0 7px;
+    border: 2px solid white;
     background-color: rgba(0, 0, 255, 0.452);
-    font-size: 20px;
+    font-size: 15px;
     
+}
+div h1{
+    margin: 0px ;
+}
+
+.buttons {
+    margin-top: 30px;
+    width: 50%;
+    background-color: rgba(0, 128, 0, 0.37);
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button{
+    color: white;
+    padding: 4px 11px;
+}
+
+#btnWatch{
+    background-color: red;
+    border: none;
+}
+#watchEps{
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.clips{
+    position: absolute;
+    bottom: 0;
+
+    height: 30vh;
+    width: 100vw;
+    background-color: rgba(255, 255, 0, 0.548);
 }
