@@ -1,0 +1,23 @@
+.clipsTab {
+    position: relative;
+    box-sizing: border-box;
+    height: 170px;
+    width: 200px;
+    background-color: rgba(255, 68, 0, 0.452);
+}
+#img {
+    height: 70%;
+    background-color: rgba(255, 0, 0, 0.699);
+}
+#imgDesc {
+    height: 25%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+
+    background-color: palevioletred;
+    font-size: 13px;
+}
+#imgDesc p{
+    margin: 0;
+}

@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 
 import Navbar from "../components/Navbar";
+import Clip from "../components/Clip";
 
 import './App.css'
 
-export default class App extends Component { 
+export default class App extends Component {
     render() {
         return (
             <div>
@@ -23,8 +24,12 @@ export default class App extends Component {
                         <button id="watchEps">TODOS OS EPS.</button>
                     </div>
                 </div>
-                <div className = "clips">
-                    
+                <h3 id="titleClips">CLIPES POPULARES DA TEMPORADA</h3>
+                <div className="clips">
+                    <Clip />
+                    <Clip />
+                    <Clip />
+                    <Clip />
                 </div>
             </div>
         )
