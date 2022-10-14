@@ -2,10 +2,11 @@ body{
     font-family: sans-serif;
 
     color: white;
-    background-color: gray;
+    background-image: url("../imgs/wpp.jpg");
+    background-size: cover;
 }
 .descricao {
-    background-color: rgba(0, 255, 255, 0.534);
+    /* background-color: rgba(0, 255, 255, 0.534); */
     position: relative;
     top: 50px;
     left: 30px;
@@ -17,14 +18,14 @@ body{
 }
 .generos {
     width: 15vw;
-    background-color: rgba(145, 255, 0, 0.479);
+    /* background-color: rgba(145, 255, 0, 0.479); */
     display: flex;
     justify-content: space-between;
 }
 .generos *{
     padding: 0 7px;
     border: 2px solid white;
-    background-color: rgba(0, 0, 255, 0.452);
+    /* background-color: rgba(0, 0, 255, 0.452); */
     font-size: 15px;
     
 }
@@ -35,7 +36,7 @@ div h1{
 .buttons {
     margin-top: 30px;
     width: 50%;
-    background-color: rgba(0, 128, 0, 0.37);
+    /* background-color: rgba(0, 128, 0, 0.37); */
     display: flex;
     justify-content: space-between;
 }
@@ -66,7 +67,7 @@ div h1{
     padding-right: 3vw;
     height: 28vh;
     width: 100vw;
-    background-color: rgba(255, 255, 0, 0.548);
+    /* background-color: rgba(255, 255, 0, 0.548); */
 }
 h3#titleClips{
     position: relative;

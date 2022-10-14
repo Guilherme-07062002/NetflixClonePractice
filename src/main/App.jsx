@@ -27,9 +27,9 @@ export default class App extends Component {
                 <h3 id="titleClips">CLIPES POPULARES DA TEMPORADA</h3>
                 <div className="clips">
                     <Clip img = "img1" text = "Episódio 1"/>
-                    <Clip />
-                    <Clip />
-                    <Clip />
+                    <Clip img = "img2" text = "Episódio 2"/>
+                    <Clip img = "img3" text = "Episódio 3"/>
+                    <Clip img = "img4" text = "Episódio 4"/>
                 </div>
             </div>
         )

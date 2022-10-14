@@ -3,16 +3,28 @@
     box-sizing: border-box;
     height: 170px;
     width: 200px;
-    background-color: rgba(255, 68, 0, 0.452);
+    /* background-color: rgba(255, 68, 0, 0.452); */
 }
 
 .img {
     height: 70%;
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 .img.img1 {
     background-image: url("../imgs/clip1.jpg");
+}
+
+.img.img2 {
+    background-image: url("../imgs/clip2.jpg");
+}
+
+.img.img3 {
+    background-image: url("../imgs/clip3.jpg");
+}
+
+.img.img4 {
+    background-image: url("../imgs/clip4.jpg");
 }
 
 .imgDesc {
@@ -21,7 +33,7 @@
     position: absolute;
     bottom: 0;
 
-    background-color: palevioletred;
+    /* background-color: palevioletred; */
     font-size: 13px;
 }
 
