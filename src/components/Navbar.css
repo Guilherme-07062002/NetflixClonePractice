@@ -6,18 +6,29 @@
     align-items: center;
     justify-content: space-between;
 }
+#netflix {
+    color: red;
+}
 .title {
     display: flex;
     justify-content: space-between;
+    position: relative;
     /* background-color: rgba(128, 0, 128, 0.61); */
     width: 20%;
-    margin-left: 20px;
+    padding-top: 20px;
+    left: 6vw;
 }
 
 .options {
     display: flex;
-    
+    padding-top: 20px;
 }
 .options *{
     margin: 0 70px;
+}
+.options *:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 2s;
+    color: rgb(212, 2, 2);
 }
