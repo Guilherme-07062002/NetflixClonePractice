@@ -1,0 +1,91 @@
+body{
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    color: white;
+    background-image: url("../imgs/wpp.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+.descricao {
+    /* background-color: rgba(0, 255, 255, 0.534); */
+    position: relative;
+    top: 50px;
+    left: 6vw;
+    width: 35vw;
+    
+}
+.descricao p{
+    text-align: justify;
+}
+.generos {
+    width: 16vw;
+    /* background-color: rgba(145, 255, 0, 0.479); */
+    display: flex;
+    justify-content: space-between;
+}
+.generos *{
+    position: relative;
+    bottom: 20px;
+    padding: 0 7px;
+    border: 2px solid white;
+    /* background-color: rgba(0, 0, 255, 0.452); */
+    font-size: 15px;
+    
+}
+div h1{
+    margin: 0px ;
+}
+.buttons {
+    margin-top: 30px;
+    width: 50%;
+    /* background-color: rgba(0, 128, 0, 0.37); */
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button{
+    color: white;
+    padding: 4px 11px;
+}
+
+#btnWatch{
+    background-color: red;
+    border: none;
+}
+#btnWatch:hover{
+    cursor: pointer;
+    transition: 1s;
+    transform: scale(1.05);
+    background-color: rgb(168, 0, 0);
+}
+#watchEps{
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0);
+}
+#watchEps:hover {
+    cursor: pointer;
+    transition: 1s;
+    transform: scale(1.05);
+}
+
+.clips{
+    position: absolute;
+    bottom: 0;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: space-between;
+
+    padding-left:  6vw;
+    padding-right: 5vw;
+    height: 28vh;
+    width: 100vw;
+
+    /* background-color: rgba(255, 255, 0, 0.548); */
+}
+h3#titleClips{
+    position: relative;
+    bottom: -90px;
+    margin-left: 6vw;
+}
